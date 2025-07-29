@@ -1,0 +1,4 @@
+{
+    "command": "npm install",
+    "working_directory": "/home/kavia/workspace/code-generation/taskpilot-productivity-suite-139234/taskpilot_frontend"
+}
