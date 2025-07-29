@@ -29,6 +29,37 @@
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* TaskPilot shell layout */
+.tp-root {
+  display: flex;
+  min-height: 100vh;
+  background: var(--bg-primary, #fff);
+}
+.tp-main {
+  flex: 1 1 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f8f9fa;
+}
+.tp-content {
+  flex: 1 1 auto;
+  padding: 28px 32px 0 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .tp-content {
+    padding: 20px 7vw 0 7vw;
+  }
+}
+@media (max-width: 600px) {
+  .tp-content {
+    padding: 10px 2vw 0 2vw;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
